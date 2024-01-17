@@ -1,35 +1,56 @@
-*{
+* {
     box-sizing: border-box;
     font-family: sans-serif;
     font-size: 0.8vw;
 }
+
 .boxcenter {
     width: 60%;
     margin: 0 auto;
 }
+
 .row {
     float: left;
     width: 100%;
 }
+
+.btn{
+    border: 1px solid #CCC;
+    padding: 8px 10px;
+    border-radius: 5px;
+    transition: all .3s ease-in-out;
+}
+.btn:hover{
+    background-color: red;
+    color: white ;
+}
+a{
+    text-decoration: none;
+}
 .mb {
     margin-bottom: 20px;
 }
+
 .mb10 {
     margin-bottom: 10px;
 }
+
 .mr {
     margin-right: 2%;
 }
+
 .demo {
     background-color: antiquewhite;
     min-height: 100px;
 }
+
 .header {
-    background-color: rgb(217, 127, 255);   
+    background-color: rgb(217, 127, 255);
     border: 1px #009900 solid;
     color: rgb(0, 42, 255);
     border-radius: 5px;
 }
+
 .footer {
     background-color: aquamarine;
     border: 1px #009900 solid;
@@ -38,10 +59,12 @@
     border-radius: 5px;
     padding: 20px;
 }
+
 .header h1 {
-    margin:20px;
+    margin: 20px;
     font-size: 1.2vw;
 }
+
 .menu {
     background-color: black;
     color: #ccc;
@@ -52,10 +75,12 @@
     float: left;
     width: 74%;
 }
+
 .boxphai {
-    float : left;
+    float: left;
     width: 24%;
 }
+
 .boxtitle {
     color: #333;
     padding: 10px;
@@ -63,8 +88,8 @@
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     border: 1px #ccc solid;
-
 }
+
 .boxcontent {
     border-left: 1px #ccc solid;
     border-right: 1px #ccc solid;
@@ -74,11 +99,13 @@
     min-height: 200px;
     padding: 20px;
 }
+
 .boxcontent2 {
     border-left: 1px #ccc solid;
     border-right: 1px #ccc solid;
     background-color: #eee;
 }
+
 .boxfooter {
     padding: 10px;
     background-color: #eee;
@@ -88,14 +115,17 @@
     border-right: 1px #ccc solid;
     border-bottom: 1px #ccc solid;
 }
+
 .banner {
     min-height: 300px;
     width: 100%;
     text-align: center;
 }
+
 .banner img {
     height: 300px;
 }
+
 .boxsp {
     float: left;
     width: 32%;
@@ -104,26 +134,32 @@
     border-radius: 5px;
     margin-bottom: 20px;
 }
+
 .boxsp .img {
     min-height: 230px;
     text-align: center;
 }
+
 .img img {
     height: 220px;
 }
+
 .menu ul {
     padding: 0px 15px;
 }
+
 .menu ul li {
     list-style-type: none;
     display: inline;
     padding: 0px 15px;
 }
+
 .menu ul li a {
     text-decoration: none;
     color: #ccc;
     transition: 0.5s;
 }
+
 .menu ul li a:hover {
     color: #bbe80a;
     font-size: 0.9vw;
@@ -133,29 +169,42 @@
 .formtaikhoan {
     line-height: 150%;
 }
-.formtaikhoan input[type="text"] 
-.formtaikhoan input[type="text"] {
+
+.formtaikhoan input[type="text"],
+.formtaikhoan input[type="password"],
+.formcontent input[type="text"] {
     width: 100%;
     border: 1px #ccc solid;
     padding: 5px 10px;
     border-radius: 5px;
 }
-.formtaikhoan input[type="checkbox"]{
+
+.formtaikhoan input[type="checkbox"] {
     border-radius: 5px;
 }
-.formtaikhoan input[type="submit"]{
+
+.formtaikhoan input[type="submit"],
+.formcontent input[type="submit"],
+.formcontent input[type="reset"],
+.formcontent input[type="button"] {
     border-radius: 5px;
     padding: 5px 10px;
     background-color: white;
     border: 1px #ccc solid;
 }
-.formtaikhoan input[type="submit"]:hover {
+
+.formtaikhoan input[type="submit"]:hover,
+.formcontent input[type="submit"]:hover,
+.formcontent input[type="reset"]:hover,
+.formcontent input[type="button"]:hover {
     background-color: #ccc;
 }
+
 .formtaikhoan li a {
     color: teal;
     text-decoration: none;
 }
+
 .formtaikhoan li a:hover {
     color: #590;
     text-decoration: none;
@@ -167,11 +216,13 @@
     padding: 0;
     list-style-type: none;
 }
+
 .menudoc ul li {
     padding: 10px 20px;
     background-color: #fff;
     border-bottom: 1px #ccc solid;
 }
+
 .menudoc ul li a {
     text-decoration: none;
     color: #666;
@@ -180,26 +231,88 @@
 .menudoc ul li:hover {
     background-color: #66b7e2;
 }
+
 .searchBox input[type="text"] {
     width: 100%;
     padding: 5px 10px;
     background-color: #fff;
     border: 1px #ccc solid;
-    border-radius: 5px; 
+    border-radius: 5px;
 }
+
 .top10 img {
     width: 10%;
     height: 50px;
     float: left;
     margin-right: 10px;
     border-radius: 5px;
-border: 1px #ccc solid;
+    border: 1px #ccc solid;
 }
+
 .top10 a {
     color: #666;
     text-decoration: none;
 }
+
 .top10 a:hover {
     color: #66b7e2;
     text-decoration: underline;
+}
+
+/* ADMIN */
+
+.headerAdmin {
+    background-color: #eee;
+    border: 1px #ccc solid;
+    color: #666;
+    border-radius: 5px;
+    padding: 0px 20px;
+}
+
+.headerAdmin h1 {
+    font-size: 2vw;
+}
+
+.formtitle {
+    background-color: #eee;
+    border: 1px #ccc solid;
+    color: #666;
+    border-radius: 5px;
+    padding: 0px 20px;
+}
+
+.formcontent {
+    padding: 20px 0px;
+}
+
+.formLoai table {
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+.formLoai table th:nth-child(1) {
+    width: 10%;
+    padding: 20px;
+    background-color: #ccc;
+}
+
+.formLoai table th:nth-child(2) {
+    width: 30%;
+    background-color: #ccc;
+}
+
+.formLoai table th:nth-child(3) {
+    background-color: #ccc;
+    width: 40%;
+}
+
+.formLoai table th:nth-child(4) {
+    background-color: #ccc;
+    width: 20%;
+}
+
+.formLoai table td {
+    padding: 10px 20px;
+    border: 1px #ccc solid;
 }
