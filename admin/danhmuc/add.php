@@ -1,6 +1,7 @@
 <div class="row">
-            <div class="row formtitle"><h1>THÊM MỚI LOẠI HÀNG HÓA</h1></div>
-            
+            <div class="row formtitle">
+                <h1>THÊM MỚI LOẠI HÀNG HÓA</h1>
+            </div>
             <div class="row formcontent">
                 <form action="index.php?act=adddm" method="post">
                     <div class="row mb10">
